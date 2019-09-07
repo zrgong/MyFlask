@@ -4,7 +4,7 @@
 1：下载https://github.com/yangleiqing0/MyFlask.git,首次刷新如果是空白页面重新刷新下即可 
 
 2：需要下载的安装包:flask_apscheduler requests xlsxwriter flask_wtf wtforms flask_sqlalchemy
-flask flask_migrate flask_script flask_mail flask_apscheduler requests flask_sqlalchemy selenium  
+flask flask_migrate flask_script flask_mail  selenium  
 
 3：如果是windows的pycharm，需要将运行时的环境变量设置为Flask环境运行, 命令行的话在app.py目录打开cmd执行python -m flask run -h 0.0.0.0 -p 5000，
 如果是linux上部署，需要linux下：commons/tail_font_log.py的 with open(FRONT_LOGS_FILE, 'a', encoding='gbk') as logs:
